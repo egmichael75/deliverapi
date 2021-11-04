@@ -1,0 +1,45 @@
+#%RAML 1.0 Trait
+
+responses:
+
+  201:
+    body:
+      application/json:
+        example:
+          {
+        meg: created successfully
+          }
+  200:
+    body:
+      application/json:
+        example:
+          {
+        meg: ok
+          }
+
+
+  401:
+    body:
+      application/json:
+        example:
+          {msg: server error}
+
+  404:
+    body:
+      application/json:
+        example:
+              {
+                message: "not created"
+              }
+  403:
+    body:
+      application/json:
+        example:
+          {msg: forbiden}
+         
+  500:
+    body:
+      application/json:
+        example:
+         {msg: server error}
+

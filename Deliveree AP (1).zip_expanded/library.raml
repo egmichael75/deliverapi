@@ -1,0 +1,13 @@
+#%RAML 1.0 Library
+usage: collection of deliver frag files
+
+types:
+  delivdata: !include /datatypes/deliverdataType.raml
+  customerdata: !include datatypes/CustdataType.raml
+  adminputdata: !include datatypes/AdminPutDataType.raml
+securitySchemes:
+  adminsecurity: !include security/oauthsecurityScheme.raml
+  custsecurity: !include security/basicsecurityScheme.raml
+traits:
+  messageResponce: !include traits/errerRespTrait.raml
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<psf version="2.0">
+<provider id="org.eclipse.egit.core.GitProvider">
+<project reference="1.0,https://anypoint.mulesoft.com/git/0bbeec69-1946-4f7c-9a78-ce73130f4c06/3cc288cd-a878-447f-89a7-5c8547a75be2,master,."/>
+</provider>
+</psf>
